@@ -1,0 +1,144 @@
+html {margin: 0px; padding: 0px; box-sizing: border-box;}
+* {margin: inherit; padding: inherit; box-sizing: border-box;
+}
+.wrapper {
+	background-image:url(../images/bb_gitte.jpg);
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	height: 100vh;
+}
+
+.headerWrap {
+	flex: 0 0 150px;
+	display: flex;
+	justify-content: center;
+	align-items: stretch;	
+	
+	
+}
+.mainWrap {
+	flex: 0 1 auto;
+	display: flex;
+	justify-content: center;
+}
+
+.footerWrap {
+	flex: 0 0 60px;
+	display: flex;	
+	justify-content: center;
+}
+
+.header {
+	
+	flex: 0 1 1000px;
+	display: flex;	
+	/*border-bottom: 2px solid black;*/
+	
+}
+
+.main {
+	flex: 0 1 1000px;
+	display: flex;
+}
+
+.footer{
+	flex: 0 1 1000px;
+	display: flex;
+	/*border-top: 2px solid black;*/
+}
+
+.headerLeft {
+	flex: 0 0 300px;
+	padding-top: 20px;
+	
+}
+
+.headerCenter {
+	
+	flex: 1 0 100px;
+}
+
+.headerRight {
+
+	flex: 0 0 100px;
+	
+}
+
+.footerLeft {
+	
+	flex: 1 1 auto;
+	
+}
+
+.footerCenter {
+	flex: 1 0 auto;
+
+
+}
+
+.footerRight {
+	flex: 1 1 auto;
+	
+	
+}
+
+.mainLeft {
+	/*background: #989F90;*/
+	flex: 0 0 120px;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.mainCenter {
+    background:white;
+	flex: 1 1 auto;
+    overflow-y: scroll;
+	display:flex;
+	flex-direction:column;
+	align-items: center;	
+		
+}
+
+.mainRight {
+	/*background: #989F90;*/
+	flex: 0 0 120px;
+	
+}
+
+
+.images1{
+	flex: 1 1 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width:400px;
+
+
+
+}
+.images2{
+	flex: 1 1 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 300px;
+}
+ .button1{
+	flex: 0 0 auto;
+	padding-top: 30px;
+	width: 100px;
+		
+	}
+ .signature{
+	flex: 1 0 auto;
+	width: 250px;
+	
+		
+	}
+
+
+
+
+
+
