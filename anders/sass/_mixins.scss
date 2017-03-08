@@ -1,0 +1,12 @@
+@mixin default-text-color($tc: $black) {
+  color: $tc;
+}
+
+@mixin default-line-height($dlh: 1rem) {
+  line-height: $dlh;
+}
+
+@mixin square($side: 100px) {
+  height: $side;
+  width: $side;
+}

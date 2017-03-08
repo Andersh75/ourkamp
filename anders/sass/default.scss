@@ -1,0 +1,20 @@
+@import 'variables';
+@import 'normalize';
+@import 'mixins';
+@import 'base';
+@import 'layout';
+@import 'content';
+
+
+
+@media (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 900px) {
+  .xxmainRight {
+    display: none;
+  }
+}
