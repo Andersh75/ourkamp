@@ -1,0 +1,18 @@
+@media (max-width: 600px) {
+	.footer {
+		flex-direction: column;
+	}
+	
+}
+
+html {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+* {
+	margin: inherit;
+	padding: inherit;
+	box-sizing: border-box;
+}
