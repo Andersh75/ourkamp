@@ -1,0 +1,109 @@
+html {
+    margin: 0px
+    padding: 0px:
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px){
+    .footerRight {
+	background: green;
+    }
+}
+
+* {
+    margin: inherit;
+    padding: inherit;
+    box-sizing: inherit;
+}
+.wrapper {
+    display: flex;
+    background: orange;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.headerWrap {
+    background: navy;
+    flex: 1 1 auto;
+    //flex: 0 0 2em;
+    display: flex;
+    justify-content: center;
+}
+.mainWrap {
+    background: teal;
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+}
+.footerWrap {
+    background: blue;
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+}
+.header {
+    background: cyan;
+    flex: 0 1 70%;
+    display: flex;
+}
+.headerLeft {
+    background: pink;
+    flex: 0 0 auto;
+    display: flex;
+}
+.headerCenter {
+    background: black;
+    flex: 1 1 auto;
+    display: flex;
+}
+.headerRight {
+    background: gray;
+    flex: 0 0 300px;
+    display: flex;
+}
+.main {
+    background: white;
+    flex: 0 1 70%;
+    display: flex;
+}
+.mainLeft {
+    background: yellow;
+    flex: 0 0 100px;
+    display: flex;
+}
+.mainCenter {
+    background: red;
+    flex: 1 1 auto;
+    display: flex;
+}
+.mainRight {
+    background: gray;
+    flex: 0 0 300px;
+    display: flex;
+}
+
+.footer {
+    background: teal;
+    flex: 0 1 70%;
+    display: flex;
+}
+.footerLeft {
+    background: pink;
+    flex: 0 0 100px;
+    display: flex;
+}
+.footerCenter {
+    background: blue;
+    flex: 1 1 auto;
+    display: flex;
+}
+.footerRight {
+    background: orange;
+    flex: 0 0 300px;
+//    display: flex;
+}
+.pct_frmt {
+    width: 100px;
+	       
+}
