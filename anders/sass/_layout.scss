@@ -1,0 +1,124 @@
+.wrapper {
+  background: $grey1;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.headerwrap {
+  background: $grey2;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.mainwrap {
+  background: $grey3;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footerwrap {
+  background: $grey4;
+  display: flex;
+  flex: 0 0 100px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header {
+  background: $grey5;
+  display: flex;
+  flex: 0 0 70%;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.main {
+  background: $grey6;
+  display: flex;
+  flex: 0 0 70%;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer {
+  background: $grey7;
+  display: flex;
+  flex: 0 0 70%;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.headerLeft {
+  //background: $red;
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+}
+
+.headerCenter {
+  align-items: center;
+  background: $green;
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: flex-end;
+}
+
+.headerRight {
+  align-items: center;
+  background: $blue;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+
+.mainLeft {
+  background: $blue;
+  display: flex;
+  flex: 0 0 200px;
+}
+
+.mainCenterRight {
+  background: $grey6;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mainCenter {
+  background: $red;
+  display: flex;
+  flex: 1 1 300px;
+}
+
+.mainRight {
+  background: $green;
+  display: flex;
+  flex: 1 1 150px;
+}
+
+.footerLeft {
+  background: $green;
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.footerCenter {
+  background: $blue;
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.footerRight {
+  background: $red;
+  display: flex;
+  flex: 1 1 auto;
+}

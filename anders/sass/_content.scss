@@ -1,0 +1,29 @@
+.logo {
+  padding: 10px 0;
+  //height: 30px;
+  object-fit: cover;
+  //width: 30px;
+  @include square(100px);
+}
+
+.icon {
+  flex: 0 0 auto;
+  background: $yellow;
+  padding: 0 10px;
+  //line-height: 50px;
+  border: 1px solid $orange;
+}
+
+.icon__counter {
+  position: relative;
+  top: -10px;
+  left: -10px;
+}
+
+.inputfield {
+  //background: $yellow;
+  border: 1px solid $orange;
+  flex: 0 0 auto;
+  //line-height: 60px;
+  padding: 0 30px;
+}
