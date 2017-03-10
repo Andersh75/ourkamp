@@ -1,3 +1,7 @@
+@import 'components/menu';
+@import 'components/card';
+@import 'components/card--vertical';
+
 .logo {
   padding: 10px 0;
   //height: 30px;
@@ -9,15 +13,17 @@
 .icon {
   flex: 0 0 auto;
   background: $yellow;
-  padding: 0 10px;
-  //line-height: 50px;
+  padding: 1rem 10px;
   border: 1px solid $orange;
+  //height: 5rem;
+  //line-height: 5rem;
+  //@include square(50px);
 }
 
 .icon__counter {
   position: relative;
   top: -10px;
-  left: -10px;
+  left: 4px;
 }
 
 .inputfield {

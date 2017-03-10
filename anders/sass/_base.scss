@@ -1,21 +1,21 @@
 html {
   box-sizing: border-box;
-  font-size: $default-font-size;
+  font-size: $primary-font-size;
   margin: 0;
   padding: 0;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
-  margin: inherit;
-  padding: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  font-family: sans-serif;
+  font-family: $primary-font-family;
   font-size: 1.4rem; //* =14px */
-  line-height: $default-line-height;
-  @include default-text-color($black);
+  line-height: $primary-line-height;
+  @include primary-text-color($black);
 }
 
 h1 {

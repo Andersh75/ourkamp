@@ -1,0 +1,31 @@
+.menuBox {
+  flex: 1 1 auto;
+  flex-direction: column;
+  background: $green;
+}
+
+.menuList {
+  flex: 1 1 auto;
+  flex-direction: column;
+  background: $red;
+  //border: 1px solid $blue;
+}
+
+.menuItem {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: none;
+  text-decoration: none;
+  background: $yellow;
+  //border: 1px solid $orange;
+  margin-left: 10px;
+
+  &--sub {
+    @extend .menuItem;
+    background: $blue;
+    color: $grey2;
+    margin-left: 12px;
+  }
+}

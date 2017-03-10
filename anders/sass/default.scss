@@ -7,9 +7,12 @@
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 960px) {
   .footer {
     flex-direction: column;
+  }
+  .hidden {
+    display: none;
   }
 }
 

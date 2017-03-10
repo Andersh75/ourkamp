@@ -1,0 +1,71 @@
+.card--vertical {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  width: 300px;
+  height: auto;
+  background:transparent;
+  align-items: stretch;
+  border-radius:10px;
+  box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.55);
+
+  &_top {
+    flex: 0 0 auto;
+    background:transparent;
+    img {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      border-radius: 1rem 1rem 0 0;
+    }
+  }
+
+  &_bottom {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    justify-content: flex-start;
+    background:#000000;
+    border-radius: 0 0 1rem 1rem;
+    padding: 2rem 3rem 3rem 3rem;
+     &__title {
+      flex: 0 0 auto;
+      color:$white;
+      font-family: $primary-font-family;
+      font-weight:400;
+      font-size:3rem;
+      //padding: 0;
+      letter-spacing:1px;
+     }
+      &__details {
+        flex: 0 0 auto;
+        ul {
+          display:flex;
+          justify-content: flex-start;
+          list-style-type: none;
+          text-decoration: none;
+          li {
+            display:inline;
+            color:#e3e3e3;
+            font-family: $primary-font-family;
+            font-weight:400;
+            font-size:1.4rem;
+            padding: 0 2.5rem 0 0;
+          }
+        }
+      }
+
+      &__review {
+        padding: 1.5rem 0 0 0;
+        p, a {
+          color:white;
+          font-family: $primary-font-family;
+          font-size:1.2rem;
+          //padding: 0;
+          letter-spacing:1px;
+          //margin:10px 0 10px 0;
+          line-height:2rem;
+        }
+      }
+    }
+  }
