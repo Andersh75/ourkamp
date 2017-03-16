@@ -3,18 +3,23 @@
 @import 'components/card--vertical';
 
 .logo {
-  padding: 10px 0;
-  //height: 30px;
-  object-fit: cover;
-  //width: 30px;
-  @include square(100px);
+  flex: 0 0 auto;
+  //background: $grey7;
+  padding: 1rem 5px;
+  color: $white;
+  letter-spacing: 3px;
+  font-size: 2rem;
+  font-weight:bold;
+  font-style: italic;
 }
 
 .icon {
   flex: 0 0 auto;
-  background: $yellow;
-  padding: 1rem 10px;
-  border: 1px solid $orange;
+  //background: $grey7;
+  padding: 1rem 5px;
+  color: $white;
+
+  //border: 1px solid $orange;
   //height: 5rem;
   //line-height: 5rem;
   //@include square(50px);
@@ -23,13 +28,13 @@
 .icon__counter {
   position: relative;
   top: -10px;
-  left: 4px;
+  left: -6px;
 }
 
 .inputfield {
   //background: $yellow;
-  border: 1px solid $orange;
+  //border: 1px solid $orange;
   flex: 0 0 auto;
   //line-height: 60px;
-  padding: 0 30px;
+  padding: 0 0 0 100px;
 }

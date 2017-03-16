@@ -1,5 +1,5 @@
 .wrapper {
-  background: $grey1;
+  background: $white;
   display: flex;
   flex-direction: column;
   //height: 100vh;
@@ -8,7 +8,7 @@
 }
 
 .headerwrap {
-  background: $grey2;
+  background-image: url("../../../../webimages/blur-image.jpg");
   display: flex;
   flex: 0 0 auto;
   flex-direction: row;
@@ -17,7 +17,7 @@
 }
 
 .mainwrap {
-  background: $grey3;
+  background: $white;
   display: flex;
   flex: 1 1 auto;
   flex-direction: row;
@@ -25,7 +25,7 @@
 }
 
 .footerwrap {
-  background: $grey4;
+  background: $white;
   display: flex;
   flex: 0 0 100px;
   flex-direction: row;
@@ -33,7 +33,7 @@
 }
 
 .header {
-  background: $grey5;
+  //background: $grey7;
   display: flex;
   flex: 0 0 70%;
   flex-direction: row;
@@ -62,19 +62,20 @@
   align-items: center;
   display: flex;
   flex: 0 0 auto;
+  justify-content: center;
 }
 
 .headerCenter {
   align-items: center;
-  background: $green;
+  //background: $grey7;
   display: flex;
   flex: 1 1 auto;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .headerRight {
   align-items: center;
-  background: $blue;
+  //background: $blue;
   display: flex;
   flex: 0 0 auto;
   align-items: center;
@@ -83,7 +84,7 @@
 }
 
 .mainLeft {
-  background: $blue;
+  //background: $blue;
   display: flex;
   flex: 0 0 200px;
   flex-direction: column;

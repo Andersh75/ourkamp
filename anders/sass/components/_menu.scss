@@ -1,14 +1,17 @@
 .menuBox {
   flex: 1 1 auto;
   flex-direction: column;
-  background: $green;
+  //background: $black;
+  background-image: url("../../../../webimages/blur-image.jpg");
+  background-blend-mode:lighten;
 }
 
 .menuList {
   flex: 1 1 auto;
   flex-direction: column;
-  background: $red;
-  //border: 1px solid $blue;
+  //background: $black;
+  //border: 1px solid $black;
+  //background-image: url("../../../../webimages/blur-image.jpg");
 }
 
 .menuItem {
@@ -18,14 +21,17 @@
   align-items: center;
   list-style-type: none;
   text-decoration: none;
-  background: $yellow;
+  //background: $black;
+  //background-image: url("../../../../webimages/blur-image.jpg");
+  color: $white;
   //border: 1px solid $orange;
-  margin-left: 10px;
+  margin-left: 0px;
+  padding-left: 30px;
 
   &--sub {
     @extend .menuItem;
-    background: $blue;
-    color: $grey2;
-    margin-left: 12px;
+    //background: $black;
+    color: $white;
+    //margin-left: 12px;
   }
 }
